@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+
+	"name": "Reading List",
+	"description": "Add websites to a reading list.",
+	"version": "1.0",
+	"background": {
+     "service_worker": "eventPage.js"
+	},
+
+	"permissions": ["tabs", "bookmarks"],
+	"action": {
+	"default_icon": "button.png",
+	"default_title": "Add this page"
+	}
+	
+	
+
+}
